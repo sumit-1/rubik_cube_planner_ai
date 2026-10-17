@@ -1,0 +1,21 @@
+{
+ "ckpt": "runs/rnn_v3/final.pt",
+ "view": "ufr",
+ "flags": {
+  "greedy": true,
+  "temperature": 1.0,
+  "allow_scratch": false,
+  "allow_rot": true,
+  "reset_mem": true,
+  "prefix": false
+ },
+ "rev": {
+  "4": 0.05859375,
+  "6": 0.0
+ },
+ "f2l_pair": 0.0,
+ "f2l": 0.0,
+ "oll_pll": 0.0,
+ "f2l_oll_pll": 0.0,
+ "full": 0.0
+}

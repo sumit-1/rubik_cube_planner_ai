@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Generated trajectory datasets (root-level)
+/data/
+/data_*/
+*.npz
+
+# Large pattern database tables (auto-built in ~13s on first run)
+cache/*.npy
+
+# Model checkpoints & raw stdout logs (keep tiny JSONL metrics & eval summaries)
+runs/**/*.pt
+runs/*.pt
+runs/**/*.out
+runs/**/*.err
+runs/*.out
+runs/*.err
+!runs/**/log.jsonl
+!runs/eval_*.json
+!runs/rnn_v3/final.pt
+
+# OS / Editor files
+.DS_Store
+Thumbs.db

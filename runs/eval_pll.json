@@ -1,0 +1,23 @@
+{
+ "ckpt": "runs/sft_ufr2/pll.pt",
+ "view": "ufr",
+ "flags": {
+  "greedy": true,
+  "temperature": 1.0,
+  "allow_scratch": false,
+  "allow_rot": true,
+  "prefix": false
+ },
+ "rev": {
+  "1": 1.0,
+  "2": 1.0,
+  "3": 0.93359375,
+  "4": 0.68359375,
+  "6": 0.11328125,
+  "8": 0.00390625
+ },
+ "cross": 0.2734375,
+ "f2l_pair": 0.08984375,
+ "pll": 0.3359375,
+ "full": 0.0
+}

@@ -1,0 +1,28 @@
+{
+ "ckpt": "runs/rnn_v3/final.pt",
+ "view": "ufr",
+ "flags": {
+  "greedy": true,
+  "temperature": 1.0,
+  "allow_scratch": false,
+  "allow_rot": true,
+  "reset_mem": false,
+  "prefix": false
+ },
+ "rev": {
+  "1": 1.0,
+  "2": 1.0,
+  "3": 0.99609375,
+  "4": 0.83203125,
+  "6": 0.19140625,
+  "8": 0.0
+ },
+ "cross": 0.44140625,
+ "f2l_pair": 0.953125,
+ "f2l": 0.9765625,
+ "oll": 1.0,
+ "pll": 1.0,
+ "oll_pll": 1.0,
+ "f2l_oll_pll": 0.97265625,
+ "full": 0.765625
+}
