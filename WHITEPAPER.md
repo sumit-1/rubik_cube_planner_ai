@@ -1,7 +1,9 @@
 # Solving the Rubik's Cube Under Strict 3-Face Partial Observability via Recurrent Attention Feedback
 
 **Technical White Paper & Complete Experimental Record**  
-**Repository:** `rubik_cube_planner_ai`  
+**GitHub Repository:** [sumit-1/rubik_cube_planner_ai](https://github.com/sumit-1/rubik_cube_planner_ai)  
+**Live 3D Simulator Space:** [huggingface.co/spaces/sumitk/rubik-cube-3face-sim](https://huggingface.co/spaces/sumitk/rubik-cube-3face-sim)  
+**Hugging Face Model & Checkpoints:** [huggingface.co/sumitk/rubik-cube-3face-recurrent-ai](https://huggingface.co/sumitk/rubik-cube-3face-recurrent-ai)  
 **Hardware:** Single NVIDIA GeForce RTX 5070 Ti Laptop GPU (12 GB VRAM)
 
 ---

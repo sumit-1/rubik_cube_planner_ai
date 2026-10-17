@@ -15,10 +15,14 @@ pipeline_tag: reinforcement-learning
 # Solving the Rubik's Cube Under Strict 3-Face Partial Observability via Recurrent Attention Feedback
 
 [![Tests](https://img.shields.io/badge/pytest-57%20passed-brightgreen)](#quick-start)
-[![Model](https://img.shields.io/badge/params-5.35M%20RecurrentCubeLM-blue)](#architecture)
-[![Observability](https://img.shields.io/badge/observation-3%20Faces%20Only%20(U%2FF%2FR%20%3D%2027%20stickers)-orange)](#problem-statement)
+[![Model](https://img.shields.io/badge/params-5.35M%20RecurrentCubeLM-blue)](#architecture-recurrentcubelm)
+[![Observability](https://img.shields.io/badge/observation-3%20Faces%20Only%20(U%2FF%2FR%20%3D%2027%20stickers)-orange)](#key-benchmark-results-256-episodes--task-3-face-view-only)
+[![HF Space](https://img.shields.io/badge/%F0%9F%A4%97%20Live%203D%20Simulator-Hugging%20Face%20Space-yellow)](https://huggingface.co/spaces/sumitk/rubik-cube-3face-sim)
+[![HF Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model%20%26%20Checkpoints-Hugging%20Face%20Hub-purple)](https://huggingface.co/sumitk/rubik-cube-3face-recurrent-ai)
 
-📄 **[Read the Full Technical White Paper (`WHITEPAPER.md`)](WHITEPAPER.md)**
+- 🧊 **Live Interactive 3D & 2D Simulator (Hugging Face Space):** **[https://huggingface.co/spaces/sumitk/rubik-cube-3face-sim](https://huggingface.co/spaces/sumitk/rubik-cube-3face-sim)**
+- 🤗 **Trained Checkpoints & Model Repository (Hugging Face Hub):** **[https://huggingface.co/sumitk/rubik-cube-3face-recurrent-ai](https://huggingface.co/sumitk/rubik-cube-3face-recurrent-ai)**
+- 📄 **Full Technical White Paper:** **[`WHITEPAPER.md`](WHITEPAPER.md)**
 
 An attention-based neural network trained from scratch to solve a $3\times 3\times 3$ Rubik's cube in closed loop under **strict 3-face partial observability**:
 - **3-Face Partial View (`U, F, R` = 27 stickers):** At every step $t$, the agent only sees the 27 stickers of the Top (`U`), Front (`F`), and Right (`R`) faces. The Back (`B`), Left (`L`), and Down (`D`) faces are completely occluded.
